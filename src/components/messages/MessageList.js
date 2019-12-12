@@ -7,7 +7,7 @@ const MessageList = (props) => {
 
     const showMessages = (mes) => {
         let resuslt = "";
-
+        
         if(mes) {
             resuslt = mes.map( (item, index) => {
                 return (

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import $ from 'jquery';
 import io from 'socket.io-client';
 import _map from 'lodash/map';
 
@@ -12,7 +12,6 @@ class App extends Component {
 
     constructor(props) {
         super(props);
-
         this.state = {
             messages : [
                 {id: 1, userId: 0, message: 'hello'},
@@ -31,16 +30,28 @@ class App extends Component {
 
     newMessage = (mes) => {
         const { messages } = this.state;
-
+        let objMessage = $('.messages');
         let ids = _map(messages, 'id');
         let max = Math.max(...ids);
+
         messages.push({
             id : max + 1,
             userId : mes.id,
             message : mes.data
         });
 
-        this.setState({messages})
+        if (objMessage[0].scrollHeight - objMessage[0].scrollTop === objMessage[0].clientHeight ) {
+            $('.message_input').val("")
+            this.setState({messages});
+            objMessage.animate({ scrollTop: objMessage.prop('scrollHeight') }, 300); //tạo hiệu ứng cuộn khi có tin nhắn mới
+
+        } else {
+            $('.message_input').val("")
+            this.setState({messages});
+            if (mes.id === this.state.user) {
+                objMessage.animate({ scrollTop: objMessage.prop('scrollHeight') }, 300);
+            }
+        }
     };
 
     sendNewMessage = (mes) => {
