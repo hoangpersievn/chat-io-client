@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hoangpersievn/chat-io-client/static/css/main.9e0893f5.chunk.css",
-    "main.js": "/hoangpersievn/chat-io-client/static/js/main.5bfb2cfe.chunk.js",
-    "main.js.map": "/hoangpersievn/chat-io-client/static/js/main.5bfb2cfe.chunk.js.map",
-    "runtime-main.js": "/hoangpersievn/chat-io-client/static/js/runtime-main.421e6542.js",
-    "runtime-main.js.map": "/hoangpersievn/chat-io-client/static/js/runtime-main.421e6542.js.map",
-    "static/js/2.78cc99f9.chunk.js": "/hoangpersievn/chat-io-client/static/js/2.78cc99f9.chunk.js",
-    "static/js/2.78cc99f9.chunk.js.map": "/hoangpersievn/chat-io-client/static/js/2.78cc99f9.chunk.js.map",
-    "index.html": "/hoangpersievn/chat-io-client/index.html",
-    "precache-manifest.00a3522194892fed8b45e2be1e6e12c4.js": "/hoangpersievn/chat-io-client/precache-manifest.00a3522194892fed8b45e2be1e6e12c4.js",
-    "service-worker.js": "/hoangpersievn/chat-io-client/service-worker.js",
-    "static/css/main.9e0893f5.chunk.css.map": "/hoangpersievn/chat-io-client/static/css/main.9e0893f5.chunk.css.map",
-    "static/js/2.78cc99f9.chunk.js.LICENSE": "/hoangpersievn/chat-io-client/static/js/2.78cc99f9.chunk.js.LICENSE"
+    "main.css": "/chat-io-client/static/css/main.9e0893f5.chunk.css",
+    "main.js": "/chat-io-client/static/js/main.b8c7e26a.chunk.js",
+    "main.js.map": "/chat-io-client/static/js/main.b8c7e26a.chunk.js.map",
+    "runtime-main.js": "/chat-io-client/static/js/runtime-main.f10f27f1.js",
+    "runtime-main.js.map": "/chat-io-client/static/js/runtime-main.f10f27f1.js.map",
+    "static/js/2.6a728a37.chunk.js": "/chat-io-client/static/js/2.6a728a37.chunk.js",
+    "static/js/2.6a728a37.chunk.js.map": "/chat-io-client/static/js/2.6a728a37.chunk.js.map",
+    "index.html": "/chat-io-client/index.html",
+    "precache-manifest.aefad2fa867f6e9cab862081c0dd04a7.js": "/chat-io-client/precache-manifest.aefad2fa867f6e9cab862081c0dd04a7.js",
+    "service-worker.js": "/chat-io-client/service-worker.js",
+    "static/css/main.9e0893f5.chunk.css.map": "/chat-io-client/static/css/main.9e0893f5.chunk.css.map",
+    "static/js/2.6a728a37.chunk.js.LICENSE": "/chat-io-client/static/js/2.6a728a37.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.421e6542.js",
-    "static/js/2.78cc99f9.chunk.js",
+    "static/js/runtime-main.f10f27f1.js",
+    "static/js/2.6a728a37.chunk.js",
     "static/css/main.9e0893f5.chunk.css",
-    "static/js/main.5bfb2cfe.chunk.js"
+    "static/js/main.b8c7e26a.chunk.js"
   ]
 }
