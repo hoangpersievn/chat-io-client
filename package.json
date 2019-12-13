@@ -1,6 +1,6 @@
 {
   "name": "chat-client-1",
-  "homepage": "https://github.com/hoangpersievn/chat-io-client",
+  "homepage": "https://hoangpersievn.github.io/chat-io-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
