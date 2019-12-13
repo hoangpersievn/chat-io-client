@@ -2,7 +2,7 @@ import push from 'git-push';
 
 const remote = {
   name: 'production',
-  url: 'http://github.com/user/test.example.com',
+  url: 'https://github.com/hoangpersievn/chat-io-client',
   branch: 'gh-pages'
 };
 
