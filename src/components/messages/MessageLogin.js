@@ -347,17 +347,17 @@ class MessageLogin extends Component {
             emailLabel.addEventListener('click', onEmailLabelClick);
 
             // handle events for password input
-            password.addEventListener('focus', onPasswordFocus);
-            password.addEventListener('blur', onPasswordBlur);
+            // password.addEventListener('focus', onPasswordFocus);
+            // password.addEventListener('blur', onPasswordBlur);
             //passwordLabel.addEventListener('click', onPasswordLabelClick);
 
             // handle events for password checkbox
-            showPasswordCheck.addEventListener('change', onPasswordToggleChange);
-            showPasswordCheck.addEventListener('focus', onPasswordToggleFocus);
-            showPasswordCheck.addEventListener('blur', onPasswordToggleBlur);
-            showPasswordCheck.addEventListener('click', onPasswordToggleClick);
-            showPasswordToggle.addEventListener('mouseup', onPasswordToggleMouseUp);
-            showPasswordToggle.addEventListener('mousedown', onPasswordToggleMouseDown);
+            // showPasswordCheck.addEventListener('change', onPasswordToggleChange);
+            // showPasswordCheck.addEventListener('focus', onPasswordToggleFocus);
+            // showPasswordCheck.addEventListener('blur', onPasswordToggleBlur);
+            // showPasswordCheck.addEventListener('click', onPasswordToggleClick);
+            // showPasswordToggle.addEventListener('mouseup', onPasswordToggleMouseUp);
+            // showPasswordToggle.addEventListener('mousedown', onPasswordToggleMouseDown);
 
             // move arms to initial positions
             TweenMax.set(armL, { x: -93, y: 220, rotation: 105, transformOrigin: "top left" });
@@ -374,11 +374,11 @@ class MessageLogin extends Component {
             emailScrollMax = email.scrollWidth;
 
             // check if we're on mobile/tablet, if so then show password initially
-            if (isMobileDevice()) {
-                password.type = "text";
-                showPasswordCheck.checked = true;
-                TweenMax.set(twoFingers, { transformOrigin: "bottom left", rotation: 30, x: -9, y: -2, ease: Power2.easeInOut });
-            }
+            // if (isMobileDevice()) {
+            //     password.type = "text";
+            //     // showPasswordCheck.checked = true;
+            //     TweenMax.set(twoFingers, { transformOrigin: "bottom left", rotation: 30, x: -9, y: -2, ease: Power2.easeInOut });
+            // }
 
             // clear the console
             console.clear();
@@ -509,14 +509,14 @@ class MessageLogin extends Component {
                         <label for="loginEmail" id="loginEmailLabel">User name</label>
                         <input type="text" id="loginEmail" placeholder="" onChange={(event) => this.handleInputOnChange(event.target.value)}/>
                     </div>
-                    <div className="inputGroup inputGroup2">
+                    {/* <div className="inputGroup inputGroup2">
                         <label for="loginPassword" id="loginPasswordLabel">Password</label>
                         <input type="password" id="loginPassword" />
                         <label id="showPasswordToggle" for="showPasswordCheck">Show
                             <input id="showPasswordCheck" type="checkbox" />
                             <div className="indicator"></div>
                         </label>
-                    </div>
+                    </div> */}
                     <div className="inputGroup inputGroup3">
                         <button 
                             id="login"
