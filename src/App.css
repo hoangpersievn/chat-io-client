@@ -62,3 +62,11 @@ body {
   font-size: 20px;
 }
 
+.login_form {
+  width: calc(100% - 20px);
+  max-width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

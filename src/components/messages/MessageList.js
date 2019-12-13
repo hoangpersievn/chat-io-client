@@ -14,7 +14,8 @@ const MessageList = (props) => {
                     <MessageItem
                         key={index}
                         message={item.message}
-                        user={item.userId === props.user ? true : false}
+                        userName={item.userName}
+                        user={item.userId === props.user.id ? true : false}
                     />
                 )
             })

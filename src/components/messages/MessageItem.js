@@ -8,7 +8,7 @@ const MessageItem = (props) => {
         <li className={`message ${props.user ? "right" : "left"}`}>
             <div className="avatar"></div>
             <div className="text_wrapper">
-                <div className="text"> {props.message}</div>
+                <div className="text"><b>{props.userName}</b><br></br>{props.message}</div>
             </div>
         </li>
     );
