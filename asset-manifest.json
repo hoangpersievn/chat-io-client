@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hoangpersievn/chat-io-client/static/css/main.9e0893f5.chunk.css",
+    "main.js": "/hoangpersievn/chat-io-client/static/js/main.5bfb2cfe.chunk.js",
+    "main.js.map": "/hoangpersievn/chat-io-client/static/js/main.5bfb2cfe.chunk.js.map",
+    "runtime-main.js": "/hoangpersievn/chat-io-client/static/js/runtime-main.421e6542.js",
+    "runtime-main.js.map": "/hoangpersievn/chat-io-client/static/js/runtime-main.421e6542.js.map",
+    "static/js/2.78cc99f9.chunk.js": "/hoangpersievn/chat-io-client/static/js/2.78cc99f9.chunk.js",
+    "static/js/2.78cc99f9.chunk.js.map": "/hoangpersievn/chat-io-client/static/js/2.78cc99f9.chunk.js.map",
+    "index.html": "/hoangpersievn/chat-io-client/index.html",
+    "precache-manifest.00a3522194892fed8b45e2be1e6e12c4.js": "/hoangpersievn/chat-io-client/precache-manifest.00a3522194892fed8b45e2be1e6e12c4.js",
+    "service-worker.js": "/hoangpersievn/chat-io-client/service-worker.js",
+    "static/css/main.9e0893f5.chunk.css.map": "/hoangpersievn/chat-io-client/static/css/main.9e0893f5.chunk.css.map",
+    "static/js/2.78cc99f9.chunk.js.LICENSE": "/hoangpersievn/chat-io-client/static/js/2.78cc99f9.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.421e6542.js",
+    "static/js/2.78cc99f9.chunk.js",
+    "static/css/main.9e0893f5.chunk.css",
+    "static/js/main.5bfb2cfe.chunk.js"
+  ]
+}
