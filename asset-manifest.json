@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/chat-io-client/static/css/main.9e0893f5.chunk.css",
-    "main.js": "/chat-io-client/static/js/main.b8c7e26a.chunk.js",
-    "main.js.map": "/chat-io-client/static/js/main.b8c7e26a.chunk.js.map",
+    "main.js": "/chat-io-client/static/js/main.01f0baee.chunk.js",
+    "main.js.map": "/chat-io-client/static/js/main.01f0baee.chunk.js.map",
     "runtime-main.js": "/chat-io-client/static/js/runtime-main.f10f27f1.js",
     "runtime-main.js.map": "/chat-io-client/static/js/runtime-main.f10f27f1.js.map",
     "static/js/2.6a728a37.chunk.js": "/chat-io-client/static/js/2.6a728a37.chunk.js",
     "static/js/2.6a728a37.chunk.js.map": "/chat-io-client/static/js/2.6a728a37.chunk.js.map",
     "index.html": "/chat-io-client/index.html",
-    "precache-manifest.aefad2fa867f6e9cab862081c0dd04a7.js": "/chat-io-client/precache-manifest.aefad2fa867f6e9cab862081c0dd04a7.js",
+    "precache-manifest.573cae0a9a37209216bbc6df6e820a89.js": "/chat-io-client/precache-manifest.573cae0a9a37209216bbc6df6e820a89.js",
     "service-worker.js": "/chat-io-client/service-worker.js",
     "static/css/main.9e0893f5.chunk.css.map": "/chat-io-client/static/css/main.9e0893f5.chunk.css.map",
     "static/js/2.6a728a37.chunk.js.LICENSE": "/chat-io-client/static/js/2.6a728a37.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f10f27f1.js",
     "static/js/2.6a728a37.chunk.js",
     "static/css/main.9e0893f5.chunk.css",
-    "static/js/main.b8c7e26a.chunk.js"
+    "static/js/main.01f0baee.chunk.js"
   ]
 }
