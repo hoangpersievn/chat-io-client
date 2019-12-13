@@ -23,7 +23,7 @@ class App extends Component {
 
     componentDidMount() {
        
-        this.socket = io('localhost:6969');
+        this.socket = io('https://chatroomioapp.herokuapp.com');
         this.socket.on('newMessage', res => this.newMessage(res));
         this.socket.on('id', res => this.setState({user : res}));
         this.socket.on('loginFail', _ => {alert("Name is exist.")});
